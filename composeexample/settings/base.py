@@ -11,7 +11,7 @@ https://docs.djangoproject.com/en/1.10/ref/settings/
 """
 
 import os
-# from .local import *
+from .local import *
 # import ConfigParser
 # Config = ConfigParser.ConfigParser()
 # Config.read('config.ini')
