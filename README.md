@@ -2,9 +2,11 @@
 
 ## Building and starting the container for the first time:
 
-Run docker-compose up to start the Django server
+Set your database name, user name and password in the /settings/local.py file
 
-`docker-compose up`
+Specify the envrionment variables, and run docker-compose up to start the Django server, 
+
+`user='' password='' database='' docker-compose up`
 
 The default port is `8000`, visit `http://localhost:8000/`
 
