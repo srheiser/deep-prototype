@@ -26,6 +26,9 @@ Then you can create a Django superuser:
 
 `docker-compose run web python manage.py createsuperuser`
 
+## Django tutorial usage
+
+Whenever Django tutorial guide you to run manage.py [command], using `docker-compose run web python manage.py [command]` instead
 ## Modifying your Django project and restarting the server:
 
 After changing Django code, you may need to restart the 
