@@ -30,12 +30,13 @@ SECRET_KEY = 'lrjx#!2vpfv7h=&ei0iv&hsh*_e3od&!segpiu6ae*g63mnev7'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['0.0.0.0']
+ALLOWED_HOSTS = []
 
 
 # Application definition
 
 INSTALLED_APPS = [
+    'deep',
     'django.contrib.admin',
     'django.contrib.auth',
     'django.contrib.contenttypes',
@@ -81,11 +82,11 @@ WSGI_APPLICATION = 'composeexample.wsgi.application'
 DATABASES = {
     'default': {
         'ENGINE': 'django.db.backends.mysql',
-        'NAME': '',
-        'USER': '',
-        'PASSWORD': '',
-        'HOST': '',
-        'PORT': ''
+        'NAME': 'test',
+        'USER': 'test',
+        'PASSWORD': 'test',
+        'HOST': 'db',
+        'PORT': '3306'
     }
 }
 
